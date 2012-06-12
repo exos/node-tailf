@@ -1,0 +1,13 @@
+{
+  "author": "Oscar Gentilezza <tioscar@gmail.com>",
+  "name": "node-tailf",
+  "description": "File change watcher",
+  "version": "0.1.0",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": ">=v0.6.0"
+  },
+  "dependencies": {},
+}
