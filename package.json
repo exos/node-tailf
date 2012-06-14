@@ -1,13 +1,17 @@
 {
-  "author": "Oscar Gentilezza <tioscar@gmail.com>",
-  "name": "node-tailf",
-  "description": "File change watcher",
-  "version": "0.1.0",
+  "author": "Oscar Gentilezza <tioscar@gmail.com> (http://blog.exodica.com.ar)",
+  "name": "tailf",
+  "description": "Watch file changes like tail -f command",
+  "version": "0.1.1",
+  "homepage": "https://github.com/exos/node-tailf",
   "repository": {
-    "url": ""
-  },
-  "engines": {
-    "node": ">=v0.6.0"
+    "type": "git",
+    "url": "git://github.com/exos/node-tailf.git"
   },
   "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
 }
