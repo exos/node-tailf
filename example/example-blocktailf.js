@@ -13,4 +13,4 @@ fta.on('data', function (data) {
 
 fta.on('error', console.log);
 
-fta.start();
+fta.start(true);
