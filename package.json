@@ -2,7 +2,7 @@
   "author": "Oscar Gentilezza <tioscar@gmail.com> (http://blog.exodica.com.ar)",
   "name": "tailf",
   "description": "Watch file changes like tail -f command",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "homepage": "https://github.com/exos/node-tailf",
   "repository": {
     "type": "git",
