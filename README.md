@@ -1,45 +1,6 @@
 
 Watch a file changes and return a buffer with the new added data, for watch logs, etc.
 
-simpleTailf
-===========
-
-Simple watching file
-
-Methods
-=======
-
-start()
--------
-
-Start the watching of file.
-
-stop()
-------
-
-Stop the watching of file.
-
-on(event_name, callback)
------------------------
-
-Subscribe to event
-
-Events
-======
-
-data
-----
-
-On data is added to file
-
-error
------
-
-On error watching the file
-
-Usage:
-======
-
 ```JS
 
 var tailf = require('node-tailf');
@@ -52,43 +13,10 @@ watchinglog.on('data', function (data) {
 
 ```
 
-
-
 blockTailf
 ==========
 
 Watching file and emit data splited by a string or regular expresion.
-
-Methods
-=======
-
-start()
--------
-
-Start the watching of file.
-
-stop()
-------
-
-Stop the watching of file.
-
-on(event_name, callback)
------------------------
-
-Subscribe to event
-
-Events
-======
-
-data
-----
-
-On data is added to file
-
-error
------
-
-On error watching the file
 
 Usage:
 ======
